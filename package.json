@@ -7,7 +7,7 @@
     "dev": "webpack --mode development",
     "watch": "webpack --mode development --watch",
     "start": "webpack serve --no-client-overlay-warnings",
-    "build": "webpack --mode production && prettier --print-width=120 --parser html --write dist/*.html",
+    "build": "webpack --mode production && html --write dist/*.html",
     "clear": "del-cli dist"
   },
   "author": "",
